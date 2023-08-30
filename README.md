@@ -14,6 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `npm install`
+npm install時の警告を非表示にするために`npm install --no-audit`を実行
+脆弱性については気にしなくていい。詳細は以下の記事を参照
+[create-react-appでは脆弱性の警告が出るが無視して良い](https://zenn.dev/appare45/articles/7f667031aab94b)
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
